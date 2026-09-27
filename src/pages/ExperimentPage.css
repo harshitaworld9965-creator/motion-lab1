@@ -1,0 +1,30 @@
+.exp-page { max-width: 1100px; margin: 0 auto; padding: 48px 24px; }
+
+.back {
+  color: var(--muted);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  transition: color 0.2s;
+}
+.back:hover { color: var(--ink); }
+
+.exp-label { color: var(--muted); font-size: 12px; margin-top: 40px; }
+
+.exp-title {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: clamp(40px, 7vw, 88px);
+  line-height: 1;
+  margin-top: 12px;
+}
+
+.stage {
+  display: grid;
+  place-items: center;
+  min-height: 60vh;
+  margin-top: 40px;
+  border: 1px solid var(--line);
+}
+
+.soon { color: var(--muted); }
