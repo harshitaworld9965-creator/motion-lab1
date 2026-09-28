@@ -1,0 +1,17 @@
+.playground { padding: 48px 24px; }
+
+.playground-title {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: 48px;
+  margin-bottom: 40px;
+}
+
+.boxes { display: flex; flex-direction: column; gap: 16px; }
+
+.box {
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+  background: var(--accent);
+}

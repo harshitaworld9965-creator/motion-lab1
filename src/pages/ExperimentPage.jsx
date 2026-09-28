@@ -3,8 +3,11 @@ import { experiments } from "../data/experiments";
 import MagneticButton from "../experiments/magnetic-button/MagneticButton";
 import "./ExperimentPage.css";
 
+import TextScramble from "../experiments/text-scramble/TextScramble";
+
 const demos = {
   "magnetic-button": MagneticButton,
+  "text-scramble": TextScramble,
 };
 
 export default function ExperimentPage() {

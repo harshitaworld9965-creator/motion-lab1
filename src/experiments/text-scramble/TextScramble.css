@@ -1,0 +1,19 @@
+.scramble-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  text-align: center;
+}
+
+.scramble-word {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: clamp(32px, 6vw, 72px);
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+  cursor: default;
+  transition: color 0.2s;
+}
+
+.scramble-word:hover { color: var(--accent); }
